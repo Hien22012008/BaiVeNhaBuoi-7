@@ -1,0 +1,22 @@
+Câu 1:
+-Điều kiện ở WHERE áp dụng cho các cột đã chọn, trong khi điều kiện ở HAVING áp dụng cho các nhóm được tạo bởi mệnh đề GROUP BY.
+
+-Điều kiện ở WHERE lọc các dòng trước khi nhóm, trong khi điều kiện ở HAVING lọc các nhóm sau khi nhóm.
+
+-Điều kiện ở WHERE không thể sử dụng với một số hàm tổng hợp như COUNT, SUM, AVG, v.v… trong khi điều kiện ở HAVING có thể sử dụng với các hàm này.
+
+Câu 2:
+-Từ khóa GROUP BY nhóm các dòng có cùng giá trị vào các dòng tóm tắt, giúp dữ liệu được truy vấn một cách hiệu quả.
+
+-Các hàm có sẵn như MAX(), SUM(), COUNT() cho phép tính toán một tập các dòng và trả về một giá trị duy nhất, giúp thể hiện được các thông tin thống kê về các nhóm.
+
+-Kết hợp từ khóa GROUP BY và các hàm có sẵn, ta có thể thực hiện các truy vấn phức tạp, như tìm số lượng khách hàng trong mỗi quốc gia, tìm giá trị lớn nhất hoặc nhỏ nhất trong mỗi nhóm,...
+
+Câu 3:
+D
+
+Câu 4:
+A
+
+Câu 5:
+A
